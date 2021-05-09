@@ -1,0 +1,14 @@
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -6px;
+
+  .item {
+    width: calc(50% - 12px);
+    padding: 0 6px;
+
+    :global(.title) {
+      font-size: 18px;
+    }
+  }
+}
