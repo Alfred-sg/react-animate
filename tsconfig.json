@@ -5,13 +5,14 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "jsx": "react",
+    "declaration": true,                   // 生成相应的 '.d.ts' 文件
     "esModuleInterop": true,
     "sourceMap": true,
     "baseUrl": ".",
     "strict": true,
     "paths": {
-      "react-animation": ["./src"],
-      "react-animation/easing": ["./src/easing"]
+      "react-animate": ["./src"],
+      "react-animate/easing": ["./src/easing"]
     },
     "allowSyntheticDefaultImports": true
   }

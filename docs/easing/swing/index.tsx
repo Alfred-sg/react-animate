@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useCallback } from 'react';
 import functionPlot from "function-plot";
-import { easing } from "react-animation";
+import { easing } from "react-animate";
 
 export default function Easin(){
   const targetRef = useRef(null);

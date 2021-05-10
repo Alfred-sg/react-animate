@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { useScreenScroll } from "react-animation";
+import { useScreenScroll } from "react-animate";
 import styles from './index.less';
 
 export default () => {

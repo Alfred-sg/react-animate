@@ -1,6 +1,6 @@
 import React, { useState, useRef, useCallback, useMemo } from 'react';
 import { Dropdown, Menu, Button } from 'antd';
-import { animate } from "react-animation";
+import { animate } from "react-animate";
 import styles from './index.less';
 
 const easings = [

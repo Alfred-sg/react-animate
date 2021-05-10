@@ -1,6 +1,6 @@
 import React, { useRef, useMemo } from 'react';
 import { Button } from 'antd';
-import { animate } from "react-animation";
+import { animate } from "react-animate";
 import styles from './index.less';
 
 export default () => {
