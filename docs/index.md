@@ -2,38 +2,37 @@
 title: 首页
 order: 1
 hero:
-  title: chaos-hooks
-  desc: 简易的 react-hooks 封装库
+  title: react-basic-animate
+  desc: 简易的东笑哭
   actions:
     - text: 指南
-      link: /guide/use-form
+      link: /api/useAnimate
 ---
 
 ## ✨ Features
 
-* useFetch 远程处理。
-* useForm 处理表单。
-* useList 处理列表。
-* useModal 处理模态框。
-* useTable 处理表格。
+* useAnimate 动效。
+* useAnimatePercent 动效百分比。
+* useScreenScroll 滚屏。
 
 ## 📦 Install
 
 ```
-npm i chaos-hooks --save
+npm i react-basic-animate --save
 ```
 
 ## 🔨 Usage
 
 ```
-import { useFetch } from 'chaos-hooks';
+import { useAnimate } from 'react-basic-animate';
 ```
 
 ## 🖥 Development
 
 ```
-$ git clone https://github.com/Alfred-sg/chaos-hooks
+$ git clone https://github.com/Alfred-sg/react-animate
 $ npm install
-$ npm run docs
+$ npm run start
 ```
+
 打开浏览器访问 http://127.0.0.1:8000。

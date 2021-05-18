@@ -1,5 +1,5 @@
 {
-  "name": "react-animate",
+  "name": "react-basic-animate",
   "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
     "name": "alfred",
     "email": "sc941203@foxmail.com"
   },
-  "repository": "https://github.com/Alfred-sg/chaos-hooks",
+  "repository": "https://github.com/Alfred-sg/react-animate",
   "scripts": {
     "build": "father build",
     "test": "father test",
