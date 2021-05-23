@@ -26,6 +26,7 @@
     "@testing-library/react-hooks": "^3.2.1",
     "@types/jest": "^25.1.4",
     "@types/lodash": "^4.14.149",
+    "@umijs/fabric": "^2.5.13",
     "@umijs/hooks": "^1.6.2",
     "antd": "^4.0.3",
     "axios": "^0.19.2",
@@ -34,6 +35,9 @@
     "enzyme": "^3.11.0",
     "father": "^2.29.2",
     "function-plot": "^1.22.7",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0",
+    "stylelint": "^13.13.1",
     "typescript": "^3.3.3"
   },
   "license": "MIT",

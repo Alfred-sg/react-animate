@@ -1,6 +1,9 @@
 export default {
-  outputPath: 'site',
+  outputPath: 'docs',
   mode: 'site',
+  history: { type: 'hash' },
+  publicPath: process.env.NODE_ENV === 'development' ? '/' : 
+    'http://xzfyu.com/react-animate/',
   extraBabelPlugins: [
     [
       'import',
@@ -12,6 +15,6 @@ export default {
     ]
   ],
   resolve: {
-    includes: ['docs'],
+    includes: ['mds'],
   }
 };
